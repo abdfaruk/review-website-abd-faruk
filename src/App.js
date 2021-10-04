@@ -9,6 +9,7 @@ import Services from './components/Services/Services';
 import Teachers from './components/Teachers/Teachers';
 import NotFound from './components/NotFound/NotFound';
 import Contact from './components/Contact/Contact';
+import Order from './components/Order/Order';
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
           </Route>
           <Route path='/contact'>
             <Contact></Contact>
+          </Route>
+          <Route path='/order'>
+            <Order></Order>
           </Route>
           <Route path='*'>
             <NotFound></NotFound>

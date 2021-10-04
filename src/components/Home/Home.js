@@ -1,7 +1,12 @@
 import React from 'react';
 import './Home.css';
+import {useHistory} from 'react-router';
 
 const Home = () => {
+    const history = useHistory();
+    const handleBtn = () =>{
+        history.push('/order');
+    }
     return (
         <div className="home-body">
             <div className="home-text">
@@ -10,7 +15,7 @@ const Home = () => {
                 <p className="home-text-p">
                 Online Arabic courses for kids, teens and adults available 24/7 <br /> for all levels beginner to advanced).
                 </p>
-                <button className="home-btn">START LEARNING TODAY</button>
+                <button onClick={handleBtn} className="home-btn">START LEARNING TODAY</button>
             </div>
         </div>
     );
