@@ -1,0 +1,15 @@
+.services-top{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 120px;
+    background-image: url('https://i2.wp.com/madrasatelquran.com/wp-content/uploads/2019/03/Learn-Arabic-Language-Madrasat-El-Quran.jpg?fit=990%2C600&ssl=1');
+    height: 500px;
+}
+.services{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+}

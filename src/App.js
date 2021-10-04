@@ -10,10 +10,13 @@ import Teachers from './components/Teachers/Teachers';
 import NotFound from './components/NotFound/NotFound';
 import Contact from './components/Contact/Contact';
 import Order from './components/Order/Order';
+import AboutFixed from './components/AboutFixed/AboutFixed';
+import ServicesFixed from './components/ServicesFixed/ServicesFixed';
+import Messege from './components/Messege/Messege';
 
 function App() {
   return (
-    <div>
+    <div className="body">
       <BrowserRouter>
         <Header></Header>
         <Switch>
@@ -32,9 +35,11 @@ function App() {
               <Contact></Contact>
           </Route>
           <Route path='/about'>
+            <AboutFixed></AboutFixed>
             <About></About>
           </Route>
           <Route path='/service'>
+            <ServicesFixed></ServicesFixed>
             <Services></Services>
           </Route>
           <Route path='/contact'>
@@ -42,6 +47,10 @@ function App() {
           </Route>
           <Route path='/order'>
             <Order></Order>
+            <Services></Services>
+          </Route>
+          <Route path='/messege'>
+            <Messege></Messege>
           </Route>
           <Route path='*'>
             <NotFound></NotFound>

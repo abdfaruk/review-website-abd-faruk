@@ -1,8 +1,13 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 import './Contact.css';
 
 const Contact = () => {
+    const history = useHistory();
+    const messegeBtn = () =>{
+        history.push('/messege')
+    }
     return (
         <div className="contact-body">
             <h1 className="contact-title">Contact With Us</h1>
@@ -28,7 +33,7 @@ const Contact = () => {
                         <Form.Control as="textarea" rows={3} />
                         </Form.Group>
                     </Form>
-                    <button className="form-btn">SEND</button>
+                    <button onClick={messegeBtn} className="form-btn">SEND</button>
                 </div>
             </div>
         </div>

@@ -1,0 +1,9 @@
+.not-found{
+    height: 600px;
+    background-color: lightcyan;
+    text-align: center;
+    padding-top: 150px;
+}
+.not-found-title{
+    font-size: 100px;
+}
