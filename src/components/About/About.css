@@ -1,0 +1,21 @@
+.about-head{
+    /* height: 400px;
+    background-color: lightgray; */
+    text-align: center;
+    margin-top: 100px;
+}
+.about-body{
+    height: 700px;
+    background-image: url('https://res.cloudinary.com/fleetnation/image/private/c_fill,g_center,h_640,w_640/v1471214800/xhdjdl3ejqausirinckz.jpg');
+    background-repeat: no-repeat;
+    margin-left: 600px;
+
+}
+.about-text{
+    margin-left: -1150px;
+    padding-top: 100px;
+}
+.about-p{
+    font-size: 25px;
+    font-weight: bold;
+}

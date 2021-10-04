@@ -1,0 +1,27 @@
+.footer-area{
+    background-image: url('https://fizfy.com/wp-content/uploads/2020/06/footer.jpg');
+    height: 700px;
+    display: flex;
+}
+.footer-1st{
+    display: flex;
+    height: auto;
+    width: 900px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.footer-text{
+    margin-left: 20px;
+}
+.footer-2nd{
+    height: 500px;
+    width: 400px;
+    background-color: lightgrey;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.footer-contact{
+    margin-top: 30px;
+    margin-left: 20px;
+}

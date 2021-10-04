@@ -1,0 +1,29 @@
+.cart-body{
+    float: left;
+}
+.card-element img{
+    height: 380px;
+    width: 550px;
+    border-radius: 10px;
+}
+.card-element{
+    height: 500px;
+    width: 550px;
+    border-radius: 10px;
+    transition: 0.6s;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.card-element:hover{
+    box-shadow: 4px 4px 7px gray;
+    border-radius: 10px;
+    border: 1px solid lightslategrey;
+    background-color: lightgray;
+}
+.course-text{
+    font-size: 25px;
+}
+.course-text-1{
+    font-size: 20px;
+}

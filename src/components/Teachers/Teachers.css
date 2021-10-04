@@ -1,0 +1,35 @@
+.teacher-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+.teacher-head{
+    height: 800px;
+    display: flex;
+}
+.single-teacher{
+    margin-left: 50px;
+}
+.single-teacher img{
+    height: 700px;
+    width: 600px;
+    border-radius: 10px;
+}
+.multiple-teacher{
+    margin-left: 20px;
+}
+.multiple-teacher img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.teachers-bio{
+    text-align: center;
+
+}
+.teacher-name{
+    font-size: 20px;
+}

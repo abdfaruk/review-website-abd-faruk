@@ -1,0 +1,28 @@
+.home-body{
+    height: 800px;
+    background-image: url("https://st.depositphotos.com/1809585/3820/i/950/depositphotos_38203153-stock-photo-arab-man-browsing-a-digital.jpg");
+    background-repeat: no-repeat;
+    width: 700px;
+}
+.home-text{
+    text-align: center;
+    margin-right: -1000px;
+    padding-top: 200px;
+}
+
+.home-text-head{
+    font-size: 50px;
+}
+.home-text-p{
+    font-size: 25px;
+}
+.home-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: lightgreen;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    cursor: pointer;
+}

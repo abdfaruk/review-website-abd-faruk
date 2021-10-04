@@ -1,0 +1,19 @@
+.nav-bar-body{
+    padding-left: 800px;
+    height: 100px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    display: flex;
+}
+.nav-bar{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 22px;
+}
+.nav-img img{
+    height: 100px;
+    width: 450px;
+    margin-left: -2000px;
+    margin-top: -31px;
+}
