@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer'
@@ -13,6 +12,7 @@ import Order from './components/Order/Order';
 import AboutFixed from './components/AboutFixed/AboutFixed';
 import ServicesFixed from './components/ServicesFixed/ServicesFixed';
 import Messege from './components/Messege/Messege';
+import SignIn from './components/SignIn/SignIn';
 
 function App() {
   return (
@@ -48,6 +48,10 @@ function App() {
           <Route path='/order'>
             <Order></Order>
             <Services></Services>
+          </Route>
+          <Route path='/signin'>
+            <SignIn></SignIn>
+            <Contact></Contact>
           </Route>
           <Route path='/messege'>
             <Messege></Messege>
